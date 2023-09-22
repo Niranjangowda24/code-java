@@ -16,33 +16,33 @@ open(54.4f,43);
 }
 
 
-		static int divide(int firstvalue,int secondvalue) {
+		static int divide(int Firstvalue,int Secondvalue) {
 			System.out.println("invoking 2 parameters");
-			int dividedvalue = firstvalue / secondvalue;
+			int dividedvalue = Firstvalue / Secondvalue;
 			return dividedvalue;
 		}
-		static int divide(int firstvalue, int secondvalue, int thirdvalue){
+		static int divide(int Firstvalue, int Secondvalue, int Thirdvalue){
 			System.out.println("invoking 3 parameters");
-			int dividedvalue = (firstvalue / secondvalue /thirdvalue);
+			int dividedvalue = (Firstvalue / Secondvalue /Thirdvalue);
 			return dividedvalue;
 		}
 
-		static void charge(char letter){
-			System.out.println("using char datatype");
-			System.out.println(letter);
+		static void charge(char Letter){
+			System.out.println("char datatype is used");
+			System.out.println(Letter);
 		}
-		static void charge(boolean letter){
-			System.out.println("using boolean datatype");
-			System.out.println(letter);
+		static void charge(boolean Letter){
+			System.out.println("boolean datatype is used");
+			System.out.println(Letter);
 		}
 
-		static void open(int firstvalue,float secondvalue){
+		static void open(int Firstvalue,float Secondvalue){
 			System.out.println("changing order");
-			System.out.println(firstvalue+","+secondvalue);
+			System.out.println(Firstvalue+","+Secondvalue);
 		}
-		static void open(float secondvalue,int firstvalue){
+		static void open(float Secondvalue,int Firstvalue){
 			System.out.println("changing order");
-			System.out.println(secondvalue+","+firstvalue);
+			System.out.println(Secondvalue+","+Firstvalue);
 		}
 	
 }
